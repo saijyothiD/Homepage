@@ -1,0 +1,79 @@
+/* .main_loanoffer{
+    padding: 0 15px;
+} */
+.loan_step1 h4{
+    color: #1d88b4;
+}
+.loan_step1 h6{
+    border-top: 1px solid #1d88b4;
+    border-bottom: 1px solid #1d88b4;
+    color: #0e2041;
+    padding: 3px 0 3px 5px;
+    background: rgb(221,252,250);
+    background: linear-gradient(0deg, rgba(221,252,250,1) 0%, rgba(255,255,255,1) 58%, rgba(221,252,250,1) 100%);
+}
+.loan_step1 p.card_select{
+    font-weight: bold;
+    margin: 0 0 20px;
+}
+.sel_dropdown{
+    width: 150px;
+    outline: none;
+}
+table{
+    width: 87%;
+    margin: auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+table thead{
+    background-color: #f0f0f0;
+    height: 43px;
+}
+table th{
+    font-weight: normal;
+    line-height: 18px;
+}
+table tbody tr td{
+    padding: 7px 0;
+}
+.loan_step1 > span{
+    text-align: right;
+    display: block;
+    text-decoration: underline;
+}
+.loan_step1 p img{
+    vertical-align: inherit;
+}
+.amount_value label{
+    font-size: 13px;
+}
+.loan_step1 ul li p span{
+    color: red;
+    font-weight: 500;
+}
+.loan_step1 p span{
+    color: red;
+    font-weight: 500;
+}
+.booking_details{
+    max-width: 510px;
+    margin: 25px 0 20px;
+    border: 2px solid #356ba7;
+    border-bottom: 0;
+}
+.booking_details h6{
+    border: 0;
+    margin: 0;
+}
+.booking_amount{
+    padding: 6px;
+}
+.booking_details.personal_des{
+   border-right: 0;
+   border-bottom:  2px solid #356ba7;
+}
+.loan_step1 ul li p a{
+    color: #998e8e;
+}
+  

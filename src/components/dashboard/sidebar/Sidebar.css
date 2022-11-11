@@ -1,0 +1,125 @@
+
+.side_nav a{
+    text-decoration: none;
+    margin: 6px 0;
+    /* display: flex; */
+    align-items: center;
+    font-size: 15px;
+    line-height: 19px;
+    color: #0e2041;
+}
+.side_nav div a svg{
+    color: #3aabda;
+    padding: 0px 5px 0 0;
+    font-size: 15px;
+}
+.side_nav{
+    border: 1px solid #7a7474;
+    border-radius: 7px;
+    border-left: 0;
+    margin: 0 0 15px;
+}
+.side_nav_icon div a{
+    position: relative;
+}
+.side_nav_icon div:last-child a:after{
+    position: absolute;
+    content: '';
+    background: url('../../../images/new-icon.PNG');
+    top: -7px;
+    right: -44px;
+    width: 40px;
+    height: 22px;
+    background-size: cover;
+}
+
+.toggle-button {
+    height: 24px;
+    width: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .toggle-button:focus {
+    outline: none;
+  }
+  
+  .toggle-button-line {
+    width: 30px;
+    height: 2px;
+    background: black;
+  }
+  .side-drawer {
+    height: 100%;
+    background: white;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70%;
+    max-width: 285px;
+    padding: 15px;
+    z-index: 200;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-out;
+  }
+  
+  .side-drawer.open {
+    transform: translateX(0);
+  }
+  
+  .side-drawer ul {
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .side-drawer li {
+    margin: 0.5rem 0;
+  }
+  
+  .side-drawer a {
+    font-size: 15px;
+  }
+  
+  .side-drawer a:hover,
+  .side-drawer a:active {
+    color: #fa923f;
+  }
+  
+  @media screen and (min-width: 759px) {
+    .side-drawer {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 760px) {
+    .side_nav{
+        display: none;
+    }
+    .side-drawer .side_nav{
+      display: block;
+    } 
+    .side_nav a{
+      display: inline-block !important;
+      margin: 4px 0;
+    }
+  }
+  @media screen and (min-width: 759px) {
+    .toggle-btn {
+        display: none;
+      }
+  }
+  @media screen and (max-width: 575px) {
+    body{
+      font-size: 14px;
+    }
+  }
+  

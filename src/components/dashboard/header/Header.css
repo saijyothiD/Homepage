@@ -1,0 +1,13 @@
+.header > p{
+    color: #0e2041;
+    font-size: 15px;
+    text-align: left;
+    padding: 0 0 10px;
+ }
+ .header > p > span{
+    color: red;
+ }
+ .header p em{
+    color: gray;
+    font-style: normal;
+ }
